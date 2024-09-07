@@ -5,13 +5,13 @@ module.exports = {
     extend: {
       backgroundImage: {
         "landing-bg":
-          "url('C:/Users/Admin/Desktop/startup-app/src/assets/images/landingbg.png')",
+          "url('C:/Users/Admin/Desktop/startup-app/public/images/landingbg.png')",
         "content-bg":
-          "url('C:/Users/Admin/Desktop/startup-app/src/assets/images/contentbg.png')",
+          "url('C:/Users/Admin/Desktop/startup-app/public/images/contentbg.png')",
         "pricing-bg":
-          "url('C:/Users/Admin/Desktop/startup-app/src/assets/images/pricingbg.png')",
+          "url('C:/Users/Admin/Desktop/startup-app/public/images/pricingbg.png')",
         "contact-bg":
-          "url('C:/Users/Admin/Desktop/startup-app/src/assets/images/contactbg.png')",
+          "url('C:/Users/Admin/Desktop/startup-app/public/images/contactbg.png')",
       },
       fontFamily: {
         "dm-sans": ["DM Sans", "sans-serif"], // Default sans-serif fontu olarak DM Sans kullan

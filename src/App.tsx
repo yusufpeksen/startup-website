@@ -1,6 +1,4 @@
-import React from "react";
 import LandingPage from "./pages/LandingPage";
-import ContentPage from "./pages/ContentPage";
 
 function App() {
   return (
