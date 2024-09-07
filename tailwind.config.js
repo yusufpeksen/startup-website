@@ -4,14 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "landing-bg":
-          "url('C:/Users/Admin/Desktop/startup-app/public/images/landingbg.png')",
-        "content-bg":
-          "url('C:/Users/Admin/Desktop/startup-app/public/images/contentbg.png')",
-        "pricing-bg":
-          "url('C:/Users/Admin/Desktop/startup-app/public/images/pricingbg.png')",
-        "contact-bg":
-          "url('C:/Users/Admin/Desktop/startup-app/public/images/contactbg.png')",
+        "landing-bg": "url('/public/images/landingbg.png')",
+        "content-bg": "url('/public/images/contentbg.png')",
+        "pricing-bg": "url('/public/images/pricingbg.png')",
+        "contact-bg": "url('/public/images/contactbg.png')",
       },
       fontFamily: {
         "dm-sans": ["DM Sans", "sans-serif"], // Default sans-serif fontu olarak DM Sans kullan
