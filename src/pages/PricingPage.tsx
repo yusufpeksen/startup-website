@@ -4,22 +4,22 @@ import Header from "../components/Header";
 const PricingPage = () => {
   return (
     <div>
-      <div className="h-[1130px] w-full bg-[#2F1893] bg-opacity-60- bg-no-repeat bg-cover font-dm-sans">
-        <div className=" h-full  bg-pricing-bg w-full flex flex-col justify-center items-center">
-          <div className="mt-[-37px] py-[60px]">
+      <div className=" w-full bg-[#2F1893] bg-opacity-60- bg-no-repeat bg-cover font-dm-sans">
+        <div className="h-full bg-pricing-bg  w-full flex flex-col justify-center items-center">
+          <div className="mt-[-37px] py-[60px] max-md:w-full max-md:px-7">
             <Header />
           </div>
-          <div className="text-white flex flex-col justify-center items-center w-[586px] h-[146px]">
-            <h2 className="text-[42px] leading-[52px] font-semibold">
+          <div className="text-white flex flex-col justify-center items-center w-[586px] h-[146px] max-md:w-full">
+            <h2 className="text-[42px] leading-[52px] font-semibold max-md:text-[30px]">
               Plans & Pricing
             </h2>
-            <p className="text-[22px] text-center mt-6 leading-8">
+            <p className="text-[22px] text-center mt-6 leading-8 max-md:text-[14px] ">
               Startup Framework is free forever — you only pay for custom domain
               hosting or to export your site.
             </p>
           </div>
-          <div className="flex gap-10 mt-20">
-            <div className="text-white border-1 border border-[#808080] rounded-[10px] p-20">
+          <div className="flex max-md:flex-col max-lg:flex-col mt-20 items-center gap-7">
+            <div className="text-white border-1 border border-[#808080] rounded-[10px] max-md:w-[85%] max-md:flex max-md:flex-col max-md:items-center p-20">
               <h6 className="text-[22px] font-medium">Starter</h6>
               <div className="flex mt-1">
                 <p className="text-[58px] font-bold">9.99</p>
@@ -56,7 +56,7 @@ const PricingPage = () => {
                 hoverBgColor="E93A7D"
               />
             </div>
-            <div className="text-white border-1 border border-[#808080] rounded-[10px] p-20">
+            <div className="text-white border-1 border border-[#808080] rounded-[10px] max-md:w-[85%] max-md:flex max-md:flex-col max-md:items-center p-20">
               <h6 className="text-[22px] font-medium">Starter</h6>
               <div className="flex mt-1">
                 <p className="text-[58px] font-bold">19.99</p>
@@ -99,7 +99,7 @@ const PricingPage = () => {
                 hoverBgColor="E93A7D"
               />
             </div>
-            <div className="text-white border-1 border border-[#808080] rounded-[10px] p-20">
+            <div className="text-white border-1 border border-[#808080] rounded-[10px] max-md:w-[85%] max-md:mb-10 max-md:flex max-md:flex-col max-md:items-center p-20">
               <h6 className="text-[22px] font-medium">Starter</h6>
               <div className="flex mt-1">
                 <p className="text-[58px] font-bold">49.99</p>
