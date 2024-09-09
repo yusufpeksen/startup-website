@@ -7,7 +7,7 @@ const LandingPage = () => {
   return (
     <div className="h-[750px] w-full  bg-[#2F1893] font-dm-sans">
       <div className=" h-full bg-landing-bg w-full bg-no-repeat bg-cover bg-opacity-50">
-        <div className="py-[40px]">
+        <div className="mt-[-37px] py-[60px] max-md:w-full max-md:px-7">
           <Header />
         </div>
         <div className="mt-12 flex justify-center items-center">

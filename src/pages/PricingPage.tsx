@@ -5,7 +5,7 @@ const PricingPage = () => {
   return (
     <div>
       <div className=" w-full bg-[#2F1893] bg-opacity-60- bg-no-repeat bg-cover font-dm-sans">
-        <div className="h-full bg-pricing-bg  w-full flex flex-col justify-center items-center">
+        <div className="h-full bg-pricing-bg bg-cover  w-full flex flex-col justify-center items-center">
           <div className="mt-[-37px] py-[60px] max-md:w-full max-md:px-7">
             <Header />
           </div>

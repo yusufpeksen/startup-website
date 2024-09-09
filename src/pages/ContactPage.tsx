@@ -15,23 +15,23 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="h-[770px] w-full bg-[#2F1893] bg-opacity-60- bg-no-repeat bg-cover font-dm-sans">
-      <div className=" h-full  bg-contact-bg w-full flex flex-col justify-center items-center font-dm-sans">
-        <div className="mt-[-105px] py-[60px]">
+    <div className="min-h-screen w-full bg-[#2F1893] bg-opacity-60- bg-no-repeat bg-cover font-dm-sans">
+      <div className=" h-full bg-contact-bg bg-cover w-full flex flex-col justify-center items-center font-dm-sans">
+        <div className="mt-[-37px] py-[60px] max-md:w-full max-md:px-7">
           <Header />
         </div>
-        <div className="flex gap-4 w-1/2">
+        <div className="flex gap-4 my-10 justify-center max-md:block max-md:w-full max-md:px-6 max-lg:block">
           {/* Left - Information Section */}
-          <div className="text-white">
-            <h2 className="font-bold text-[42px] leading-[52px] mb-6">
+          <div className="text-white w-1/2">
+            <h2 className="font-bold text-[42px] leading-[52px] mb-6 max-md:text-[36px]">
               Let's Keep in Touch
             </h2>
-            <p className="text-[22px] font-medium leading-8 mb-20">
+            <p className="text-[22px] font-medium leading-8 mb-20 max-md:mb-8 max-md:text-[16px] max-lg:mb-8">
               We have created a new product that will help designers, developers
               and companies create websites for their startups quickly and
               easily.
             </p>
-            <div className="w-1/2 flex flex-col gap-10">
+            <div className="w-1/2  flex flex-col gap-10 max-md:w-full max-md:gap-6">
               <div className="flex items-center gap-3">
                 <span>
                   <svg
@@ -75,18 +75,18 @@ const ContactPage = () => {
             </div>
           </div>
           {/* Right - Form section */}
-          <div className="w-[470px] h-[550px] bg-[#FFFFFF] rounded-[10px] p-6">
-            <div className="flex gap-7 mt-5">
-              <div className="flex flex-col item mt-">
+          <div className="w-[470px] min-h-[550px] bg-[#FFFFFF] rounded-[10px] p-6 ml-20 max-md:mt-16 max-md:w-full max-lg:mt-16">
+            <div className="flex items-center just gap-7 mt-5 justify-between max-md:flex-col max-md:items-start max-lg:flex-col max-lg:items-start">
+              <div className="flex flex-col w-full">
                 <span className="text-[#1E0E62] text-[12px] font-bold tracking-[2px]">
                   YOUR NAME
                 </span>
                 <input
                   placeholder="First name"
-                  className="rounded-[20px] w-[180px] outline-none border-[2px] border-[#EBEAED] py-2 pl-4 mt-3"
+                  className="rounded-[20px] min-w-[180px] outline-none border-[2px] border-[#EBEAED] py-2 pl-4 mt-3 "
                 ></input>
               </div>
-              <div>
+              <div className="flex flex-col">
                 <span className="text-[#1E0E62] text-[12px] font-bold tracking-[2px]">
                   BUDGET
                 </span>
@@ -125,7 +125,7 @@ const ContactPage = () => {
                       {options.map((option, index) => (
                         <li
                           key={index}
-                          className="px-4 py-2 cursor-pointer hover:bg-gray-100"
+                          className="px-4 py-2 text-[#1E0E62] cursor-pointer hover:bg-gray-100"
                           onClick={() => handleSelect(option)}
                         >
                           {option}
