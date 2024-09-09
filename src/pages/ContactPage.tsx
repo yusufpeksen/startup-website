@@ -75,7 +75,7 @@ const ContactPage = () => {
             </div>
           </div>
           {/* Right - Form section */}
-          <div className="w-[470px] min-h-[550px] bg-[#FFFFFF] rounded-[10px] p-6 ml-20 max-md:mt-16 max-md:w-full max-lg:mt-16">
+          <div className="w-[470px] min-h-[550px] bg-[#FFFFFF] rounded-[10px] p-6 max-md:mt-16 max-md:w-full max-lg:mt-16">
             <div className="flex items-center just gap-7 mt-5 justify-between max-md:flex-col max-md:items-start max-lg:flex-col max-lg:items-start">
               <div className="flex flex-col w-full">
                 <span className="text-[#1E0E62] text-[12px] font-bold tracking-[2px]">
