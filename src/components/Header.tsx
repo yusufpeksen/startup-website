@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <div className="h-[26px] w-full text-white my-0 mx-auto">
+    <div className="h-[26px] w-full text-white mx-auto">
       <div
         className="flex items-center justify-end md:invisible cursor-pointer"
         onClick={handleOpen}

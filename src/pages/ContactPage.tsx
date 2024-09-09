@@ -15,12 +15,12 @@ const ContactPage = () => {
   };
 
   return (
-    <div className="min-h-screen w-full bg-[#2F1893] bg-opacity-60- bg-no-repeat bg-cover font-dm-sans">
+    <div className=" min-h-screen w-full bg-[#2F1893] bg-opacity-60- bg-no-repeat bg-cover font-dm-sans">
       <div className=" h-full bg-contact-bg bg-cover w-full flex flex-col justify-center items-center font-dm-sans">
         <div className="mt-[-37px] py-[60px] max-md:w-full max-md:px-7">
           <Header />
         </div>
-        <div className="flex gap-4 my-10 justify-center max-md:block max-md:w-full max-md:px-6 max-lg:block">
+        <div className="flex gap-4 my-10  justify-center max-md:flex max-md:flex-col max-md:w-full max-md:px-6 max-lg:flex max-lg:flex-col max-lg:items-center">
           {/* Left - Information Section */}
           <div className="text-white w-1/2">
             <h2 className="font-bold text-[42px] leading-[52px] mb-6 max-md:text-[36px]">
@@ -121,7 +121,7 @@ const ContactPage = () => {
                   </button>
 
                   {isOpen && (
-                    <ul className=" w-full absolute bg-white border border-gray-300 rounded-lg mt-1">
+                    <ul className=" w-[20px] absolute bg-white border border-gray-300 rounded-lg mt-1">
                       {options.map((option, index) => (
                         <li
                           key={index}
