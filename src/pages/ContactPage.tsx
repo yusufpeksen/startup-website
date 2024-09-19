@@ -16,8 +16,8 @@ const ContactPage = () => {
 
   return (
     <div className=" min-h-screen w-full bg-[#2F1893] bg-opacity-60- bg-no-repeat bg-cover font-dm-sans">
-      <div className=" h-full bg-contact-bg bg-cover w-full flex flex-col justify-center items-center font-dm-sans">
-        <div className="mt-[-37px] py-[60px] max-md:w-full max-md:px-7">
+      <div className=" min-h-screen bg-contact-bg bg-cover w-full flex flex-col items-center font-dm-sans">
+        <div className=" py-[60px] max-md:w-full max-md:px-7">
           <Header />
         </div>
         <div className="flex gap-4 my-10  justify-center max-md:flex max-md:flex-col max-md:w-full max-md:px-6 max-lg:flex max-lg:flex-col max-lg:items-center">

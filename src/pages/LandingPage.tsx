@@ -5,15 +5,15 @@ import Button from "../components/Button";
 
 const LandingPage = () => {
   return (
-    <div className="h-[750px] w-full  bg-[#2F1893] font-dm-sans">
-      <div className=" h-full bg-landing-bg w-full bg-no-repeat bg-cover bg-opacity-50">
-        <div className="mt-[-37px] py-[60px] max-md:w-full max-md:px-7">
+    <div className="min-h-screen w-full bg-[#2F1893] font-dm-sans">
+      <div className="min-h-screen bg-landing-bg w-full bg-no-repeat bg-cover bg-opacity-50">
+        <div className="py-[60px] max-md:w-full max-md:px-7">
           <Header />
         </div>
-        <div className="mt-12 flex justify-center items-center">
+        <div className="mt-12 flex justify-center items-center max-md:mt-8">
           <Carousel />
         </div>
-        <div className="flex justify-center items-center mt-20">
+        <div className="flex justify-center items-center mt-20 max-md:mt-10">
           <Button
             bgcolor="482BE7"
             text="Create an Account"
